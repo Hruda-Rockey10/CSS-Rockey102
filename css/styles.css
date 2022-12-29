@@ -1,0 +1,165 @@
+body {
+  margin: 0; /* makes the screen fit to screen*/
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+h1 {
+  margin-top: 0;
+
+  font-family: "Sacramento", cursive;
+  font-size: 70px;
+  color: #66bfbf;
+}
+h2 {
+  color: #66bfbf;
+  font-size: 30px;
+}
+h3 {
+  font-family: "Sacramento", cursive;
+  font-size: 30px;
+}
+hr {
+  background-color: #effffd;
+
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #1a120b;
+  border-width: 5px;
+  width: 10%;
+}
+
+/* container ---------------------------------*/
+.top-container {
+  background-color: #e7f6f2;
+  position: relative;
+  padding-top: 105px;
+  height: 710px;
+  padding-left: 0;
+  padding-bottom: 0;
+  padding-right: 0;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 200px;
+  top: 100px;
+  width: 200px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 200px;
+  bottom: 300px;
+  width: 200px;
+}
+.mountain {
+  position: absolute;
+  top: 414px;
+  left: 330px;
+  padding: 0;
+}
+
+.middle-container {
+  background-color: #effffd;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+.pfp {
+  height: 300px;
+  width: 300px;
+}
+
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto 100px auto;
+  line-height: 2; /* spacing btw two lines of text*/
+  text-align: left;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.plans {
+  width: 50%;
+  margin: 50px auto 50px auto;
+  line-height: 2;
+  text-align: left;
+}
+.giphy-embed1 {
+  width: 40%; /* giphy-embed class is default while copying from site*/
+  height: 300px;
+  float: left;
+  margin-right: 30px;
+}
+.giphy-embed2 {
+  width: 40%; /* giphy-embed class is default while copying from site*/
+  height: 250px;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-msg {
+  width: 40%;
+  margin: 40px auto 40px;
+}
+/* button code from css3button generator*/
+.btn {
+  background: #effffd;
+  background-image: -webkit-linear-gradient(top, #effffd, #7cd6ca);
+  background-image: -moz-linear-gradient(top, #effffd, #7cd6ca);
+  background-image: -ms-linear-gradient(top, #effffd, #7cd6ca);
+  background-image: -o-linear-gradient(top, #effffd, #7cd6ca);
+  background-image: linear-gradient(to bottom, #effffd, #7cd6ca);
+  -webkit-border-radius: 51;
+  -moz-border-radius: 51;
+  border-radius: 51px;
+  text-shadow: 1px 1px 3px #ffffff;
+  font-family: Georgia;
+  color: #2b2d38;
+  font-size: 22px;
+  padding: 10px 20px 10px 20px;
+  border: solid #3591b3 4px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #b63cfc;
+  background-image: -webkit-linear-gradient(top, #b63cfc, #3498db);
+  background-image: -moz-linear-gradient(top, #b63cfc, #3498db);
+  background-image: -ms-linear-gradient(top, #b63cfc, #3498db);
+  background-image: -o-linear-gradient(top, #b63cfc, #3498db);
+  background-image: linear-gradient(to bottom, #b63cfc, #3498db);
+  text-decoration: none;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  padding-bottom: 10px;
+  height: 70px;
+  padding-top: 10px;
+}
+.footer-img {
+  display: inline-block;
+  margin-right: 5px;
+  position: relative;
+  top: 5px;
+  margin-left: 5px;
+}
+
+.footer-link {
+color: #11999e;
+text-decoration: none; /* default is underline ..so changing to normal*/
+margin-right: 30px;
+}
+ 
+.footer-link:hover {
+  color: #eaf6f6; /* gives a beautiful look while hovering*/
+}
+
+.trademark {
+  color: #eaf6f6;
+  padding-bottom: 10px;
+}
+.trademark-img {
+  position: relative;
+  top: 3px;
+}
